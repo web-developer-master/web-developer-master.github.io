@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Pizzeria el ñato</title>
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+
+   <!-- Facebook Opengraph integration: https://developers.facebook.com/docs/sharing/opengraph -->
+  <meta property="og:title" content="">
+  <meta property="og:image" content="">
+  <meta property="og:url" content="">
+  <meta property="og:site_name" content="">
+  <meta property="og:description" content="">
+
+  <!-- Twitter Cards integration: https://dev.twitter.com/cards/  -->
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:site" content="">
+  <meta name="twitter:title" content="">
+  <meta name="twitter:description" content="">
+  <meta name="twitter:image" content="">
+
+  <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Satisfy|Bree+Serif|Candal|PT+Sans">
+  <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+
+</head>
+
+<body>
+  <!--banner-->
+  <section id="banner">
+    <div class="bg-color">
+      <header id="header">
+        <div class="container">
+          <div id="mySidenav" class="sidenav">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <a href="#about">Acerca de</a>
+            <a href="#event">Promociones</a>
+            <a href="#menu-list">Menu</a>
+          </div>
+          <!-- Use any element to open the sidenav -->
+          <span onclick="openNav()" class="pull-right menu-icon">☰</span>
+        </div>
+      </header>
+      <div class="container">
+        <div class="row">
+          <div class="inner text-center">
+            <h1 class="logo-name">Pizzeria el ñato</h1>
+            <h2>Pizzas para ti para el y para ella.</h2>
+            <p>¡Especializado en distintos tipos de pizza!!</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- / banner -->
+  <!--about-->
+  <section id="about" class="section-padding">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 text-center marb-35">
+          <h1 class="header-h">Hacerca de nosotros.</h1>
+          <p class="header-p">Nuestro local esta habierto de viernes a domingo desde las 20:30 hasta 00:00. </p>
+        </div>
+        <div class="col-md-1"></div>
+        <div class="col-md-10">
+          <div class="col-md-6 col-sm-6">
+            <div class="about-info">
+              <h2 class="heading">Nosotros</h2>
+              <p>Contamos con un servicio cordial y de viernes a domingo,contamos con clientes frecuentes 
+              y tenemos variedad de precios y savores.<br>
+            puedes contactarnos a este numero:098.328.486</p>
+              <div class="details-list">
+                <ul>
+                  <li><i class="fa fa-check"></i>Atencion gentil</li>
+                  <li><i class="fa fa-check"></i>Pizzas artesanales</li>
+                  <li><i class="fa fa-check"></i>Entregas a domicilio</li>
+                  <li><i class="fa fa-check"></i>Somos clientes frecuentes</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-sm-6">
+            <img src="img/res01.jpg" alt="" class="img-responsive">
+          </div>
+        </div>
+        <div class="col-md-1"></div>
+      </div>
+    </div>
+  </section>
+  <!--/about-->
+  <!-- event -->
+  <section id="event">
+    <div class="bg-color" class="section-padding">
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12 text-center" style="padding:60px;">
+            <h1 class="header-h">Nuestras promociones</h1>
+            <p class="header-p">100% confiable</p>
+          </div>
+          <div class="col-md-12" style="padding-bottom:60px;">
+            <div class="item active left">
+              <div class="col-md-6 col-sm-6 left-images">
+                <img src="img/res02.jpg" class="img-responsive">
+              </div>
+              <div class="col-md-6 col-sm-6 details-text">
+                <div class="content-holder">
+                  <h2>siguenos en instagram</h2>
+                  <p>Siguenos en instagram hay subimos la mayoria de las promocione y mas informacion 
+                  sobre el negocios ademas de stories que aran que se te caiga la saliba.</p>
+                  <address>
+                              <strong>Place: </strong>
+                              1612 Collins Str, Victoria 8007
+                              <br>
+                              <strong>Time: </strong>
+                              solo el dia antes mancionado
+                            </address>
+                  <a class="btn btn-imfo btn-read-more" href="https://www.instagram.com/pizzeriaelnato/">instagram</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--/ event -->
+  <!-- menu -->
+  <section id="menu-list" class="section-padding">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 text-center marb-35">
+          <h1 class="header-h">Nuestro menu</h1>
+          <p class="header-p">con variedad de savores que <br>
+            no te los puedes perder. </p>
+        </div>
+        <div class="col-md-12  text-center gallery-trigger">
+          <ul>
+            <li><a class="filter" data-filter="all">Todos los pedidos</a></li>
+            <li><a class="filter" data-filter=".category-1">Pedidos rapido</a></li>
+          </ul>
+        </div>
+        <div id="Container">
+          <div class="mix category-1 menu-restaurant" data-myorder="2">
+            <span class="clearfix">
+                        <a class="menu-title" href="" data-meal-img="assets/img/restaurant/rib.jpg">MetroC/muza</a>
+                        <span style="left: 166px; right: 44px;" class="menu-line"></span>
+            <span class="menu-price">½Metro:$180</span>
+            </span>
+            <span class="menu-subtitle">Rico pizza con muza que no te lo puedes perder</span>
+          </div>
+          <div class="mix category-1 menu-restaurant" data-myorder="2">
+            <span class="clearfix">
+                        <a class="menu-title" href="#" data-meal-img="assets/img/restaurant/rib.jpg">Gustos</a>
+                        <span style="left: 166px; right: 44px;" class="menu-line"></span>
+            <span class="menu-price">½Metro:$220</span>
+            </span>
+            <span class="menu-subtitle">una rica pizza a tu gusto </span>
+          </div>
+          <div class="mix category-1 menu-restaurant" data-myorder="2">
+            <span class="clearfix">
+                        <a class="menu-title" href="#" data-meal-img="assets/img/restaurant/rib.jpg">Choclo</a>
+                        <span style="left: 166px; right: 44px;" class="menu-line"></span>
+            <span class="menu-price">½Metro:$220</span>
+            </span>
+            <span class="menu-subtitle">Si te gusta la pizza con choclo que esperas llama ya</span>
+          </div>
+          <div class="mix category-1 menu-restaurant" data-myorder="2">
+            <span class="clearfix">
+                        <a class="menu-title" href="#" data-meal-img="assets/img/restaurant/rib.jpg">Aceitunas</a>
+                        <span style="left: 166px; right: 44px;" class="menu-line"></span>
+            <span class="menu-price">½Metro:$220</span>
+            </span>
+            <span class="menu-subtitle">quieres una pizza con aceitunas llama ya esta al alcance de una llamada </span>
+          </div>
+          <div class="mix category-2 menu-restaurant" data-myorder="2">
+            <span class="clearfix">
+                        <a class="menu-title" href="#" data-meal-img="assets/img/restaurant/rib.jpg">Panceta</a>
+                        <span style="left: 166px; right: 44px;" class="menu-line"></span>
+            <span class="menu-price">½Metro:$220</span>
+            </span>
+            <span class="menu-subtitle">Hace buen tiempo como para una pizza con panceta </span>
+          </div>
+          <div class="mix category-2 menu-restaurant" data-myorder="2">
+            <span class="clearfix">
+                        <a class="menu-title" href="#" data-meal-img="assets/img/restaurant/rib.jpg">Jamon</a>
+                        <span style="left: 166px; right: 44px;" class="menu-line"></span>
+            <span class="menu-price">½Metro:$220</span>
+            </span>
+            <span class="menu-subtitle">no se tu pero hoy esta como para una pizza con jamon llama ya </span>
+          </div>
+          <div class="mix category-2 menu-restaurant" data-myorder="2">
+            <span class="clearfix">
+                        <a class="menu-title" href="#" data-meal-img="assets/img/restaurant/rib.jpg">Atun</a>
+                        <span style="left: 166px; right: 44px;" class="menu-line"></span>
+            <span class="menu-price">½Metro:$220</span>
+            </span>
+            <span class="menu-subtitle">una pizzita con atun a todos nos baja</span>
+          </div>
+          <div class="mix category-2 menu-restaurant" data-myorder="2">
+            <span class="clearfix">
+                        <a class="menu-title" href="#" data-meal-img="assets/img/restaurant/rib.jpg">Napolitana(jamon,tomate)</a>
+                        <span style="left: 166px; right: 44px;" class="menu-line"></span>
+            <span class="menu-price">½Metro:$220</span>
+            </span>
+            <span class="menu-subtitle">dale que si te vaja una napolitana tienes que provar esto</span>
+          </div>
+          <div class="mix category-3 menu-restaurant" data-myorder="2">
+            <span class="clearfix">
+                        <a class="menu-title" href="#" data-meal-img="assets/img/restaurant/rib.jpg">De la casa(jamon,huevo,perejil,aceitunas)</a>
+                        <span style="left: 166px; right: 44px;" class="menu-line"></span>
+            <span class="menu-price">½Metro:$220</span>
+            </span>
+            <span class="menu-subtitle">la especialidad de la casa dale llama ya y la pudes probar</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+           
+  <footer class="footer text-center">
+    <div class="footer-top">
+      <div class="row">
+        <div class="col-md-offset-3 col-md-6 text-center">
+          <div class="widget">
+            <h4 class="widget-title">LSRR</h4>
+            <address>324 Ellte Road<br>Delhi, DL 110013</address>
+            <div class="social-list">
+            </div>
+            <p class="copyright clear-float">
+              © ProOnliPc Theme. All Rights Reserved
+              <div class="credits">
+                
+                Designed by <a href="https://www.youtube.com/channel/UCDH0DJaVLkCDtl_YN9hhByw?view_as=subscriberP">ProOnliPc</a>
+              </div>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- / footer -->
+
+  <script src="js/jquery.min.js"></script>
+  <script src="js/jquery.easing.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/jquery.mixitup.min.js"></script>
+  <script src="js/custom.js"></script>
+  <script src="contactform/contactform.js"></script>
+
+</body>
+
+</html>
